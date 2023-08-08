@@ -1,0 +1,17 @@
+.button {
+  margin: 1rem;
+  padding: 1rem;
+  width: 5rem;
+  border: 0;
+  background-color: skyblue;
+  color: white;
+  transition: opacity 0.25s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.9;
+  }
+}
